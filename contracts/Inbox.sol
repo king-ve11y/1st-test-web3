@@ -10,4 +10,7 @@ contract Inbox {
     function setMessage(string newMessage) public {
         message = newMessage;
     }
+    function capMessage(string capMessage) public {
+        message = capMessage;
+    }
 }
